@@ -32,7 +32,7 @@ class User {
   @Field(() => String, {
     nullable: true,
   })
-  firstName!: string | null;
+  fullName!: string | null;
 
   @ApiProperty({
     required: true,
